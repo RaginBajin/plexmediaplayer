@@ -1,0 +1,11 @@
+--- CMakeModules/WebClientResources.cmake.origin	2016-03-26 14:00:54.773688491 +0100
++++ CMakeModules/WebClientResources.cmake	2016-03-26 14:01:17.128723379 +0100
+@@ -4,7 +4,7 @@
+ 
+ if(NOT SKIP_WEB_CLIENT)
+   set(WEB_CLIENT_CPP plex-web-client-konvergo-${WEB_CLIENT_VERSION}.cpp)
+-  set(WEB_CLIENT_URL https://nightlies.plex.tv/directdl/plex-dependencies/plex-web-client-plexmediaplayer/latest/plex-web-client-konvergo-${WEB_CLIENT_VERSION}.cpp.tbz2)
++  set(WEB_CLIENT_URL https://nightlies.plex.tv/directdl/plex-dependencies/plex-web-client-plexmediaplayer/121/plex-web-client-konvergo-${WEB_CLIENT_VERSION}.cpp.tbz2)
+ 
+   message(STATUS "web-client version: ${WEB_CLIENT_VERSION}")
+ 

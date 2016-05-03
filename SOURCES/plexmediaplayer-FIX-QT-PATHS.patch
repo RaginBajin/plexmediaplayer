@@ -1,0 +1,10 @@
+--- CMakeModules/QtConfiguration.cmake.origin	2016-03-26 13:43:26.201342607 +0100
++++ CMakeModules/QtConfiguration.cmake	2016-03-26 13:44:45.777007940 +0100
+@@ -24,7 +24,7 @@
+ endif()
+ list(APPEND CMAKE_FIND_ROOT_PATH ${QTROOT})
+ list(APPEND CMAKE_PREFIX_PATH ${QTROOT})
+-include_directories(${QTROOT}/include)
++include_directories(/usr/include/qt5)
+
+ set(REQUIRED_QT_VERSION "5.6.0")
